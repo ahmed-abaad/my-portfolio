@@ -19,7 +19,7 @@
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem =16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 2.95rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -55,7 +55,7 @@
 /* Responsive typography*/
 @media screen and (max-width: 992px){
   :root{
-    --big-font-size: 2.75rem;
+    --big-font-size: 2.25rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -177,13 +177,35 @@ img{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  .button{
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 
 /* For medium devices*/
-@media screen and (max-width: 968px){
-  
+@media screen and (max-width: 768px){
+  .section{
+    padding: 2rem 0 4rem;
+  }
 }
 
+/* For small devices*/
+@media screen and (max-width: 350px){
+  :root{
+    --big-font-size: 1.85rem;
+  }
+
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
 
 
 
