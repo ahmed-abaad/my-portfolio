@@ -100,7 +100,7 @@
 
 .services__modal-service{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: .5rem;
 }
 
@@ -111,6 +111,7 @@
 
 .services__modal-info{
     font-size: var(--small-font-size);
+    margin-top: 2px;
 }
 
 /* Active */
@@ -124,6 +125,9 @@
 @media screen and (max-width: 992px){
     .services__container{
         grid-template-columns: repeat(3, 218px);
+    }
+    .services__modal-info{
+        margin-top: 3px;
     }
 }
 

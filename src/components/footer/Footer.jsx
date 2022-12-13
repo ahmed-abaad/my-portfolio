@@ -13,24 +13,24 @@ const Footer = () => {
           </li>
 
           <li>
-              <a href="#portfolio" className="footer__link">Projects</a>
+              <a href="#services" className="footer__link">Services</a>
           </li>
 
           <li>
-              <a href="#testmonials" className="footer__link">Testimonials</a>
+              <a href="#portfolio" className="footer__link">Projects</a>
           </li>
         </ul>
 
         <div className="footer__social">
-          <a href="" className="footer__social-link" target="_black">
+          <a href="https://www.instagram.com/ahmed__abaad/" className="footer__social-link" target="_black">
           <i class="uil uil-instagram"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_black">
+          <a href="https://www.youtube.com/@AhmedAbaad001" className="footer__social-link" target="_black">
           <i class="uil uil-youtube"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_black">
+          <a href="https://github.com/ahmed-abaad" className="footer__social-link" target="_black">
           <i class="uil uil-github-alt"></i>
           </a>
         </div>

@@ -41,9 +41,9 @@ const Qualification = () => {
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Design</h3>
+                            <h3 className="qualification__title">Bachelor's In Computer Science</h3>
                             <span className="qualification__subtitle">
-                                Kenya - Institute
+                                Kenya - Umma University
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
@@ -64,50 +64,32 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Art Director</h3>
+                            <h3 className="qualification__title">High School Certificate</h3>
                             <span className="qualification__subtitle">
-                                Kenya - Institute
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i>
-                                2020 - Present
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">
-                                Kenya - Institute
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i>
-                                2020 - Present
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className='qualification__rounder'></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
-                    <div className="qualification__data">
-                        <div></div>
-     
-                        <div>
-                            <span className='qualification__rounder'></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 className="qualification__title">UX Expert</h3>
-                            <span className="qualification__subtitle">
-                                Kenya - Institute
+                                Kenya - Qubaa Muslim School
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2016 - 2019
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="qualification__data">
+                        <div>
+                            <h3 className="qualification__title">Primary Certificate</h3>
+                            <span className="qualification__subtitle">
+                                Kenya - Qubaa Muslim School
+                            </span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                2008 - 2015
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className='qualification__rounder'></span>
+                            <span className="qualification__line"></span>
                         </div>
                     </div>
                 </div>
@@ -118,13 +100,13 @@ const Qualification = () => {
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Product Designer</h3>
+                            <h3 className="qualification__title">Web Developer</h3>
                             <span className="qualification__subtitle">
-                                Microsoft - Kenya
+                                Mombasa Maize Millers - Industrial Attachment
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2020 - Present
+                                Sep 2022 - Dec 2022
                             </div>
                         </div>
 
@@ -134,42 +116,6 @@ const Qualification = () => {
                         </div>
                     </div>
                     
-                    <div className="qualification__data">
-                        <div></div>
-     
-                        <div>
-                            <span className='qualification__rounder'></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 className="qualification__title">UX Designer</h3>
-                            <span className="qualification__subtitle">
-                                Apple Inc - Spain
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i>
-                                2020 - Present
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Web Designer</h3>
-                            <span className="qualification__subtitle">
-                                Figma - Spain
-                            </span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i>
-                                2020 - Present
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className='qualification__rounder'></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
